@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Commands</title>
+    <!-- Link Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* CSS style to right justify the content in the "Command" column */
+        body {
+            font-family: 'Roboto', sans-serif; /* Add Roboto font to the entire document */
+        }
+        th {
+            text-align: left;
+            padding-right: 15px; /* Adjust the spacing between columns */
+        }
+        /* Target all td elements within the first column of the table */
+        tbody td:first-child {
+            text-align: left;
+            padding-right: 15px; /* Adjust the spacing between columns */
+        }
+    </style>
+    <!-- Include Roboto font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1 class="mt-4 ml-4">GIT Commands</h1>
+
+<div class="container mt-4">
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        git init
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Flag</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>--bare</td>
+                                <td>Create a bare repository (no working directory)</td>
+                            </tr>
+                            <tr>
+                                <td>--template &lt;template_directory&gt;</td>
+                                <td>Specify the directory from which templates will be used</td>
+                            </tr>
+                            <tr>
+                                <td>--separate-git-dir &lt;git dir&gt;</td>
+                                <td>Specify the path to the Git repository separate from the working directory</td>
+                            </tr>
+                            <tr>
+                                <td>--shared[=&lt;value&gt;]</td>
+                                <td>Specify the permissions of the shared repository</td>
+                            </tr>
+                            <tr>
+                                <td>--quiet, -q</td>
+                                <td>Only print error and warning messages</td>
+                            </tr>
+                            <tr>
+                                <td>--verbose, -v</td>
+                                <td>Print more detailed information</td>
+                            </tr>
+                            <tr>
+                                <td>--initial-branch=&lt;name&gt;</td>
+                                <td>Specify the name of the initial branch to create</td>
+                            </tr>
+                            <tr>
+                                <td>--object-format=&lt;format&gt;</td>
+                                <td>Specify the object format for the repository (sha1 or sha256)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table class="table">
+    <tbody>
+        <tr>
+            <td>git clone &lt;url&gt;</td>
+            <td>Clones a repository into a new directory</td>
+    </tr>
+    <tr>
+      <td>git clone &lt;url&gt;</td>
+      <td>Clones a repository into a new directory</td>
+    </tr>
+    <tr>
+      <td>git add &lt;file&gt;</td>
+      <td>Adds a file to the staging area</td>
+    </tr>
+    <tr>
+      <td>git add .</td>
+      <td>Adds all changes in the current directory to the staging area</td>
+    </tr>
+    <tr>
+      <td>git commit -m "message"</td>
+      <td>Records changes to the repository</td>
+    </tr>
+    <tr>
+      <td>git status</td>
+      <td>Shows the status of changes as untracked, modified, or staged</td>
+    </tr>
+    <tr>
+      <td>git diff</td>
+      <td>Shows changes between commits, commit and working tree, etc.</td>
+    </tr>
+    <tr>
+      <td>git log</td>
+      <td>Displays commit history</td>
+    </tr>
+    <tr>
+      <td>git branch</td>
+      <td>Lists all local branches</td>
+    </tr>
+    <tr>
+      <td>git branch &lt;branch_name&gt;</td>
+      <td>Creates a new branch</td>
+    </tr>
+    <tr>
+      <td>git checkout &lt;branch_name&gt;</td>
+      <td>Switches to a specified branch</td>
+    </tr>
+    <tr>
+      <td>git merge &lt;branch_name&gt;</td>
+      <td>Merges changes from one branch to another</td>
+    </tr>
+    <tr>
+      <td>git remote</td>
+      <td>Lists remote repositories</td>
+    </tr>
+    <tr>
+      <td>git push</td>
+      <td>Pushes changes to a remote repository</td>
+    </tr>
+    <tr>
+      <td>git pull</td>
+      <td>Fetches changes from a remote repository and merges them</td>
+    </tr>
+    <tr>
+      <td>git fetch</td>
+      <td>Fetches changes from a remote repository without merging</td>
+    </tr>
+    <tr>
+      <td>git reset &lt;file&gt;</td>
+      <td>Unstages the file, but preserves its contents</td>
+    </tr>
+    <tr>
+      <td>git reset --hard</td>
+      <td>Resets the staging area and working directory to match the most recent commit</td>
+    </tr>
+    <tr>
+      <td>git rm &lt;file&gt;</td>
+      <td>Removes a file from the working directory and staging area</td>
+    </tr>
+    <tr>
+      <td>git mv &lt;file&gt;</td>
+      <td>Moves or renames a file, directory, or symlink</td>
+    </tr>
+    <tr>
+      <td>git stash</td>
+      <td>Stashes changes in a dirty working directory away for later use</td>
+    </tr>
+    <tr>
+      <td>git tag</td>
+      <td>Lists tags</td>
+    </tr>
+    <tr>
+      <td>git tag &lt;tag_name&gt;</td>
+      <td>Creates a new tag</td>
+    </tr>
+    <tr>
+      <td>git show &lt;tag_name&gt;</td>
+      <td>Shows information about a tag</td>
+    </tr>
+    <tr>
+      <td>git remote</td>
+      <td>Lists remote repositories</td>
+    </tr>
+    <tr>
+      <td>git remote add &lt;name&gt; &lt;url&gt;</td>
+      <td>Adds a new remote repository</td>
+    </tr>
+    <tr>
+      <td>git remote remove &lt;name&gt;</td>
+      <td>Removes a remote repository</td>
+    </tr>
+    <tr>
+      <td>git remote rename &lt;old_name&gt; &lt;new_name&gt;</td>
+      <td>Renames a remote repository</td>
+    </tr>
+    <tr>
+      <td>git remote set-url &lt;name&gt; &lt;new_url&gt;</td>
+      <td>Changes the URL of a remote repository</td>
+    </tr>
+    <tr>
+      <td>git clean</td>
+      <td>Removes untracked files and directories from the working directory</td>
+    </tr>
+  </tbody>
+</table>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+</html>
