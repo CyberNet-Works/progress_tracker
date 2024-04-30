@@ -1,3 +1,4 @@
+--! SQL
 --strftime_weekeneds
 SELECT *
 FROM Shows

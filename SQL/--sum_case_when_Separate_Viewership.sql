@@ -1,3 +1,4 @@
+--! SQL
 --sum_case_when_Separate_Viewership.sql
 
 SELECT

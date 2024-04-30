@@ -1,3 +1,5 @@
+--! SQL
+
 -- SQL COUNT()
 SELECT COUNT(*)
 FROM Products

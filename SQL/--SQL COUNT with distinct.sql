@@ -1,3 +1,4 @@
+--! SQL
 --SQL COUNT with distinct 
 SELECT COUNT(DISTINCT age) as distinct_age
 FROM Employees

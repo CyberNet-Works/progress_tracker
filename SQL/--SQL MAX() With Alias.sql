@@ -1,3 +1,4 @@
+--! SQL
 --SQL MAX() With Alias
 SELECT MAX(price) as max_price
 FROM Products

@@ -1,3 +1,4 @@
+--! SQL
 --SELECT_NAME_STARTS_W_S.sql
 
 SELECT name

@@ -1,3 +1,4 @@
+--! SQL
 --Smallest_Non_Repeating_Number.SQL
 
 SELECT MIN(number) AS smallest_single_number

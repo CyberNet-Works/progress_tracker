@@ -1,3 +1,4 @@
+--! SQL
 --Highest_Rated_Anime_Titles.SQL
 
 SELECT title

@@ -1,3 +1,4 @@
+--! SQL
 --query_optimization
 SELECT 
     SUBSTR(sales_date, 1, 7) AS month,

@@ -1,3 +1,4 @@
+--! SQL
 --EMPLOYEES_AND_SALARIES_CASE_WHEN
 SELECT
     e.emp_id,

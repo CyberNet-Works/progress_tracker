@@ -1,3 +1,5 @@
+--! SQL
+
 SELECT SUBSTR(sales_date, 6, 2) AS month,
 SUM(sales_amount) AS total_sales
 FROM Sales

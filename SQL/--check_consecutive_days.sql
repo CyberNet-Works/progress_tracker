@@ -1,3 +1,4 @@
+--! SQL
 --check_consecutive_days.sql
 WITH first_login AS (
   SELECT player_id, MIN(event_date) AS first_login_date

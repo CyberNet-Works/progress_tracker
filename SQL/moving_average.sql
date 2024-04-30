@@ -1,3 +1,4 @@
+--! SQL
 --moving_average.sql
 
 SELECT 

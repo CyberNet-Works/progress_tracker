@@ -1,3 +1,4 @@
+--! SQL
 --Like_SELECT.sql
 SELECT name
 FROM Employees

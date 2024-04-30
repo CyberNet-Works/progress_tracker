@@ -1,3 +1,4 @@
+--! SQL
 --SQL AVG()
 
 SELECT AVG(price) as average_price

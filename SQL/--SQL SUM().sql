@@ -1,3 +1,4 @@
+--! SQL
 --SQL SUM()
 SELECT SUM(quantity) as total_products
 FROM Products;

@@ -1,3 +1,4 @@
+--! SQL
 --NO_CHECKOUT_USERS.SQL
 SELECT user_id
 FROM Activity
