@@ -1,4 +1,4 @@
-#convert_letters_in_strng_to_dictionary_with_letter_key_and_ascii_value.py
+#convert_letters_in_string_to_dictionary_with_letter_key_and_ascii_value.py
 def ascii_dictionary(string):
     
     letters = [x for x in string]
