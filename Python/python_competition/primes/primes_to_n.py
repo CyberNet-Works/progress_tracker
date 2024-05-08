@@ -1,4 +1,5 @@
 #primes_to_a_given_number
+import math
 def is_prime(n):
     prime = True
     for x in range(2, n):
@@ -13,3 +14,9 @@ def primes_below(n):
             primes.append(x)
 
     return primes
+
+def euclid_number(n):
+    euclid = math.prod(primes_below(n)) 
+    return euclid
+
+print(euclid_number(10))
