@@ -1,4 +1,4 @@
-convert numbers string stream to list and sum
+#convert numbers string stream to list and sum
 def memorial_cost(prices):
     prices_list = prices.split()
     integer_price_list = []
