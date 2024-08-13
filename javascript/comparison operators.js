@@ -32,9 +32,9 @@ console.log(number2 >= 18);
 
 //Comparison Operators: < and <=
 
-let age1 = 21;
-let age2 = 18;
+// let age1 = 21;
+// let age2 = 18;
 
-console.log(age1 < 21);
+// console.log(age1 < 21);
 
-console.log(age1 <= 21);
+// console.log(age1 <= 21);
