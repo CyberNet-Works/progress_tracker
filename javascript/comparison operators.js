@@ -1,3 +1,12 @@
+//Comparison Operators: < and <=
+
+let age1 = 21;
+let age2 = 18;
+
+console.log(age1 < 21);
+
+console.log(age1 <= 21);
+
 //Comparison Operators: > and >=
 
 let number1 = 21;
@@ -20,3 +29,12 @@ console.log(number2 > 17);
  
 // 18 greater than or equal to 18 is true
 console.log(number2 >= 18);
+
+//Comparison Operators: < and <=
+
+let age1 = 21;
+let age2 = 18;
+
+console.log(age1 < 21);
+
+console.log(age1 <= 21);
